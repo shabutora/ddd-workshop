@@ -1,9 +1,10 @@
 package ddd.vo;
 
 /**
+ * 人数幅
  * Created by tsukasa on 2015/07/02.
  */
-public enum PeopleRange {
+public enum NumberOfPersonsRange {
 
     LITTLE(0, 2),
     MIDDLE(3, 3),
@@ -13,7 +14,7 @@ public enum PeopleRange {
     private int start;
     private int end;
 
-    private PeopleRange(int start, int end) {
+    private NumberOfPersonsRange(int start, int end) {
         this.start = start;
         this.end = end;
     }

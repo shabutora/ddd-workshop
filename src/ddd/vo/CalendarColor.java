@@ -1,9 +1,10 @@
 package ddd.vo;
 
 /**
+ *
  * Created by tsukasa on 2015/07/02.
  */
-public enum Rank {
+public enum CalendarColor {
     WHITE,
     BLUE,
     YELLOW,
